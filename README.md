@@ -1,11 +1,13 @@
-# CISSP guide #
-This is my learning guide for preparation of the CISSP exam. It covers the essential information on all relevant domains. I aim to keep it as brief as possible leaving out most of the basics, so some previous knowledeg on IT security is mandatory.
+# CISSP Summary #
+
+This is my learning guide for preparation of the CISSP exam. It covers the essential information on all relevant domains. I aim to keep it as brief as possible leaving out most of the basics, so some previous knowledeg of IT security is mandatory.
 
 ## Access Control ##
-Subjects ability to communicate with an object is allowed/denied based on security requirements. It is needed to proetct information, computers, networks and all other infrastructure (buildings).
+
+Subjects ability to communicate with an object is allowed/denied based on security requirements. It is needed to protect information, computers, networks and all other infrastructure (buildings).
 
 - CIA triad: confidentiality, integrity, availability
-- identify relation between resources (which entities need to be protected) and users (identify who needs access), set access control levels
+- identify relationships between resources (which entities need to be protected) and users (identify who needs access), set access control levels
 - least privilege/need to know principle: give minimum access needed only for the tasks they need to perform, default to no access
 - separation of duties: distribute tasks/rights/privileges between users, deter fraud, split knowledge
 - three authentication factors:
@@ -116,6 +118,7 @@ Subjects ability to communicate with an object is allowed/denied based on securi
 	- backdoor/trapdoor: unlimited access implemented on purpose
 
 ## Telecommunications and Network Security ##
+
 Protect data at rest (storage) and in transit (network). Each layer adds new information but makes no modification to the data received from above.
 
 - OSI model: protocol set, breaks communication process into layers
